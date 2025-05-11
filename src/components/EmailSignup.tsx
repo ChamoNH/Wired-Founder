@@ -1,5 +1,6 @@
-// src\components\EmailSignup.tsx
+// src/components/EmailSignup.tsx
 'use client';
+
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -30,7 +31,7 @@ export default function EmailSignup() {
       <Button className="mt-4 w-full" onClick={handleSubmit} disabled={status === 'loading'}>
         {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
       </Button>
-      {status === 'done' && <p className="mt-2 text-green-600">You're in!</p>}
+      {status === 'done' && <p className="mt-2 text-green-600">You&apos;re in!</p>}
     </div>
-  );
+  )
 }
