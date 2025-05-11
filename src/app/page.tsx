@@ -1,4 +1,4 @@
-// app/page.tsx
+// src/app/page.tsx
 'use client';
 
 import { Button } from '@/components/ui/button';
@@ -17,9 +17,8 @@ export default function HomePage() {
           Wired Founder
         </h1>
         <p className="mt-4 max-w-xl text-muted-foreground">
-          I’m <strong>Sanju Peramuna</strong>, ADHD-fueled founder, startup builder & CEO of
-          Aenigm3 Labs. Here I share my raw journey, lessons, failures, and the unfiltered reality
-          behind building impactful work.
+          Raw lessons. Creative tools. Hard truths from building with ADHD, starting over after rock bottom,
+          and learning to grow something real without fitting into the startup echo chamber.
         </p>
 
         <div className="mt-6 flex flex-wrap justify-center gap-4">
