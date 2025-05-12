@@ -1,4 +1,4 @@
-// app/newsletter/page.tsx
+// src\app\newsletter\page.tsx
 'use client';
 import EmailSignup from '@/components/EmailSignup';
 
