@@ -1,4 +1,4 @@
-// src/app/contact/page.tsx
+// src\app\contact\page.tsx
 'use client';
 
 import { motion } from 'framer-motion';
@@ -16,10 +16,10 @@ export default function ContactPage() {
         {/* LEFT: Text Content */}
         <div className="text-left flex flex-col justify-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight text-foreground">
-            Let's Connect
+            Lets Connect
           </h1>
           <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
-            Whether it's about AI, growth strategy, ADHD systems, or collaborating on something meaningful — book a time with me directly.
+            Whether its about AI, growth strategy, ADHD systems, or collaborating on something meaningful — book a time with me directly.
           </p>
           <p className="text-muted-foreground text-sm mb-6">
             I typically respond within 24 hours. If you need something urgent, feel free to DM me.
